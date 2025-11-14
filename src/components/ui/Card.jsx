@@ -3,15 +3,17 @@
  * Base card with header and body
  */
 
-const Card = ({ title, icon, gradient, children }) => {
+import Tooltip from './Tooltip'
+
+const Card = ({ title, icon, gradient, children, description }) => {
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg dark:shadow-gray-900/50 
-                    overflow-hidden card-hover transition-colors duration-200">
+    <div className="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
       {/* Card Header */}
-      <div className={`bg-gradient-to-r ${gradient} text-white px-6 py-4`}>
-        <h3 className="text-lg font-semibold flex items-center gap-2">
-          <i className={`fas ${icon}`}></i>
+      <div className={`bg-gradient-to-r ${gradient} text-white px-6 py-4 rounded-t-xl relative overflow-visible`}>
+        <h3 className="text-lg font-semibold flex items-center">
+          <i className={`fas ${icon} mr-2`}></i>
           {title}
+          {description && <Tooltip description={description} />}
         </h3>
       </div>
       

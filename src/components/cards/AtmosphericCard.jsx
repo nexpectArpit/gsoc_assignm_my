@@ -13,6 +13,7 @@ const AtmosphericCard = ({ data, loading }) => {
         title="Atmospheric" 
         icon="fa-gauge-high"
         gradient="from-purple-500 to-pink-500"
+        description="Atmospheric conditions including barometric pressure, visibility distance, UV radiation index, and cloud coverage percentage."
       >
         <div className="animate-pulse space-y-2">
           <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded"></div>
@@ -32,6 +33,7 @@ const AtmosphericCard = ({ data, loading }) => {
       title="Atmospheric" 
       icon="fa-gauge-high"
       gradient="from-purple-500 to-pink-500"
+      description="Atmospheric conditions including barometric pressure, visibility distance, UV radiation index, and cloud coverage percentage."
     >
       <div className="space-y-2">
         <MetricRow icon="fa-compress" label="Pressure" value={`${data.pressure} hPa`} />

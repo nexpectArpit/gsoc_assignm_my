@@ -14,6 +14,7 @@ const AirQualityCard = ({ data, loading }) => {
         title="Air Quality" 
         icon="fa-lungs"
         gradient="from-green-500 to-emerald-500"
+        description="Air Quality Index (AQI) measures pollution levels. Lower values indicate better air quality. PM2.5 and PM10 are particulate matter measurements."
       >
         <div className="animate-pulse">
           <div className="h-16 bg-gray-200 dark:bg-gray-700 rounded mb-4"></div>
@@ -35,6 +36,7 @@ const AirQualityCard = ({ data, loading }) => {
       title="Air Quality" 
       icon="fa-lungs"
       gradient="from-green-500 to-emerald-500"
+      description="Air Quality Index (AQI) measures pollution levels. Lower values indicate better air quality. PM2.5 and PM10 are particulate matter measurements."
     >
       <div className="text-center mb-4">
         <div className="text-5xl font-bold" style={{ color: aqiColor }}>

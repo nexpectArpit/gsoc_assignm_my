@@ -13,6 +13,7 @@ const WeatherCard = ({ data, loading }) => {
         title="Weather" 
         icon="fa-cloud-sun"
         gradient="from-blue-500 to-cyan-500"
+        description="Current weather conditions including temperature, humidity, wind speed, and overall weather status for the selected city."
       >
         <div className="animate-pulse">
           <div className="h-16 bg-gray-200 dark:bg-gray-700 rounded mb-4"></div>
@@ -31,6 +32,7 @@ const WeatherCard = ({ data, loading }) => {
       title="Weather" 
       icon="fa-cloud-sun"
       gradient="from-blue-500 to-cyan-500"
+      description="Current weather conditions including temperature, humidity, wind speed, and overall weather status for the selected city."
     >
       <div className="text-center mb-4">
         <div className="text-5xl font-bold text-blue-600 dark:text-blue-400">

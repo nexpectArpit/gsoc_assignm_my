@@ -15,6 +15,7 @@ const StatusCard = ({ lastUpdated, loading }) => {
       title="Status" 
       icon="fa-clock"
       gradient="from-orange-500 to-red-500"
+      description="Dashboard status showing when data was last refreshed and whether you're viewing live API data or mock data for demonstration."
     >
       <div className="space-y-3">
         <div>
