@@ -9,6 +9,10 @@ A modern, full-stack web application for monitoring real-time environmental data
 
 # Live_Demo = https://gsoc-assignm.vercel.app/
 
+## 🖼️ Screenshots
+![Screenshot - Dashboard](src/assets/dashboard.png)
+![Screenshot - City View](src/assets/historicalData.png)
+
 ## ✨ Features
 
 ### 🔐 Authentication System
